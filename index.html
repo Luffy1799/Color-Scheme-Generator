@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>Color Shades Generator</title>
+</head>
+<body>
+    <h1>Color Shades Generator</h1>
+    
+    <div class="colorCards" id="colorPalette">
+        <div class="colorCard">
+            <div style="background-color: #000000;" class="color" ><div class="cardCircle"></div></div>
+            <div class="hex">Pick</div>
+        </div>
+        <div class="colorCard">
+            <div style="background-color: #404040;" class="color" ><div class="cardCircle"></div></div>
+            <div class="hex">your</div>
+        </div>
+        <div class="colorCard">
+            <div style="background-color: #7f7f7f;" class="color" ><div class="cardCircle"></div></div>
+            <div class="hex">base</div>
+        </div>
+        <div class="colorCard">
+            <div style="background-color: #bfbfbf;" class="color" ><div class="cardCircle"></div></div>
+            <div class="hex">color</div>
+        </div>
+        <div class="colorCard">
+            <div style="background-color: #e5e4e2;" class="color" ><div class="cardCircle"></div></div>
+            <div class="hex">below</div>
+        </div>
+        
+    </div>
+
+    <div class="flex">
+        <label style="letter-spacing: 0.5rem;"for="baseColor">Base Color</label>
+        <input type="color" name="col" id="baseColor">
+    </div>
+    <button id="genColors">Create Palette</button>
+</body>
+<script src="index.js"></script>
+</html>
