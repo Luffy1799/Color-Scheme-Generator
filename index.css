@@ -33,6 +33,7 @@ h1{
 .colorCards {
     display: flex;
     justify-content: space-between;
+    overflow-x: auto;
 }
 
 .colorCard {
